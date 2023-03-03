@@ -4,6 +4,7 @@
     max-width: 84.5rem;
     color: #ffff;
     box-shadow: 0px 3px 6px #00000029;
+    text-decoration: none;
 
 
 }
@@ -18,8 +19,6 @@
     gap: 2rem;
     text-align: center;
     margin-right: 8.5rem;
-
-
 
 }
 
@@ -59,10 +58,98 @@
 }
 
 .box__wrapper {
-    background-color: lightgreen;
     width: 100%;
     height: 44.5rem;
-    background: url('../images/Background@2x.png');
-    
+    margin-top: 200px;
+}
 
+.opening__image {
+    width: 100%;
+    opacity: 1;
+    
+}
+
+.hero__lead {
+    color: black;
+    font-family: 'Open sans', sans-serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
+.hero__hdl {
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 3.0625rem;
+    display: flex;
+    justify-content: center;
+
+}
+.statistics {
+    height: 33.1875rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 2.25rem;
+    text-align: center;
+
+}
+
+.statistics__single {
+    max-width: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+.statistics__number {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 1.25rem;
+    color: black;
+}
+.statistics__description {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #A5A5A5;
+    font-size: 1.0625rem;
+
+
+}
+.statistics__circle {
+    border-radius: 50%;
+    width: 63px;
+    height: 63px;
+    position: relative;
+}
+
+.statistics__img {
+    position: absolute;
+}
+
+.statistics__single:nth-child(1) .statistics__circle {
+    background-color: #FB3B64;
+}
+
+.statistics__single:nth-child(2) .statistics__circle {
+    background-color: #08A6E4;
+
+}
+.statistics__single:last-child .statistics__circle {
+    background-color: #55DFB4;
+}
+.statistics__container {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 5px;
 }
