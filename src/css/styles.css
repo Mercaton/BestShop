@@ -202,8 +202,36 @@ h2 {
     border: none;
     margin-left: 60px;
 }
-.benefits__single--phone {
-    --accent-color: var(--color-primary);
-    flex-direction: row-reverse;
-    padding: 0 20px 0 70px;
+
+/*a.logo {*/
+/*    color: #08A6E4;*/
+/*    font-family: 'Raleway', sans-serif;*/
+/*    text-decoration: none;*/
+/*    margin-left: 136px;*/
+/*    font-size: 2rem;*/
+
+.footer__icons {
+    margin-right: 8.5rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 1.25rem;
+
+}
+
+.footer__copy {
+    font-family: 'Open sans', sans-serif;
+    font-size: 0.6875rem;
+    color: #A5A5A5;
+    display: flex;
+    margin-left: 8.5625rem;
+
+
+}
+
+.footer__container  {
+    background-color: #F7F7F7;
+    width: 100vw;
+    height: 5.5625rem;
+
 }
